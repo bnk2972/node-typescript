@@ -1,0 +1,19 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bnk2972/node-typescript.git",
+  "author": "BNK 2972 <beer@livingmobile.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1"
+  }
+}
